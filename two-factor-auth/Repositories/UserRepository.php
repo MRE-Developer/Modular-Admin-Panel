@@ -4,7 +4,7 @@
 namespace TwoFactorAuth\Repositories;
 
 
-use App\User;
+use App\Models\User;
 use Illuminate\Support\Str;
 use phpDocumentor\Reflection\Types\Integer;
 

@@ -27,7 +27,7 @@ class LoginController extends Controller {
             return ResponderFacade::passwordIsNotCurrent();
         }
 
-//        UserRepoFacade::updateApiToken($user);
+        UserRepoFacade::updateApiToken($user);
 
         AuthFacade::loginUserById($user->id);
 

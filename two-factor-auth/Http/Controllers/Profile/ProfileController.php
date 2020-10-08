@@ -15,7 +15,7 @@ class ProfileController extends Controller {
 
     public function profile(){
         $user =  AuthFacade::user();
-//        UserRepoFacade::updateApiToken($user);
+        UserRepoFacade::updateApiToken($user);
         return ResponderFacade::profile($user);
     }
 

@@ -3,7 +3,6 @@
 
 namespace TwoFactorAuth\Http\Responses;
 
-
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

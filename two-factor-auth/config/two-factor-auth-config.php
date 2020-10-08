@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'token_ttl' => 120,
+    'token_ttl' => 1000,
 
     /**
      * You may provide a middleware throttler to throttle
